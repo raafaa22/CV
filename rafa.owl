@@ -1,0 +1,2101 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://users.jyu.fi/~rafserra/rafa.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://users.jyu.fi/~rafserra/rafa.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/rafa/ontologies/2024/10/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducationEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducationLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Father"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FootballEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrandMother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LanguageLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Autonomous_communities_of_Spain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Boyfriend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Brother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Couple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Daughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Girlfriend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/GrandChildren"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/GrandDaughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/GrandSon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Grandparent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Hobby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Mother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Sister"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/page/Team"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/bornIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasBoyfriend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasBrother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasCertification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasDaughter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteDessert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGirlfriend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandDaughter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandFather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandMother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandParents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandchildren"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasHusband"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasLevelOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasNationalityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasParents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSister"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasStudiedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasStudiesOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasWife"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/isCityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/isEntityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/isPlayedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/isRefereeIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/livesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/playedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/plays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/playsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/speaks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/studiesErasmusIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/page/usesFreeTimeAs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/page/hasAcronyms"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/page/hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/page/hasBornIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/page/hasFullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/page/hasPrefix"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/page/isInDivision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Angeles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Araceli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CEIPNavasDeTolosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FootballPlayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gisela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IESAuringis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Native"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rafa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RafaF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toxiria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Andalusia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Association_football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/B2_First"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Basketball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/English"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/French"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/HTML"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Ice_cream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jaén"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jyväskylä"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/MySQL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Real_Jaén"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/S.L._Benfica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/School"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Script"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Secondary_school"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spanish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/University"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jaén"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jyväskylä"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/C++"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Java_(programming_language)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/page/Referee_(association_football)"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="https://dbpedia.org/page/Gender"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+            <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Children"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducationEntity"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Father"/>
+        <Class IRI="#Parents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FootballEntity"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandMother"/>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main"/>
+        <Class IRI="https://dbpedia.org/page/Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parents"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Autonomous_communities_of_Spain"/>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Boyfriend"/>
+        <Class IRI="https://dbpedia.org/page/Couple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Brother"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/City"/>
+        <Class IRI="https://dbpedia.org/page/Autonomous_communities_of_Spain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Couple"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Daughter"/>
+        <Class IRI="#Children"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Dessert"/>
+        <Class IRI="https://dbpedia.org/page/Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Girlfriend"/>
+        <Class IRI="https://dbpedia.org/page/Couple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/GrandChildren"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/GrandDaughter"/>
+        <Class IRI="https://dbpedia.org/page/GrandChildren"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/GrandSon"/>
+        <Class IRI="https://dbpedia.org/page/GrandChildren"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Grandparent"/>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Mother"/>
+        <Class IRI="#Parents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Sister"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/page/Son"/>
+        <Class IRI="#Children"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#Ana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#Angeles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#Araceli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LanguageLevel"/>
+        <NamedIndividual IRI="#Basic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationEntity"/>
+        <NamedIndividual IRI="#CEIPNavasDeTolosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Hobby"/>
+        <NamedIndividual IRI="#FootballPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#Gisela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationEntity"/>
+        <NamedIndividual IRI="#IESAuringis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#Manuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#Montse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LanguageLevel"/>
+        <NamedIndividual IRI="#Native"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#Rafa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+        <NamedIndividual IRI="#RafaF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Team"/>
+        <NamedIndividual IRI="#Toxiria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Autonomous_communities_of_Spain"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Andalusia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Sport"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Association_football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LanguageLevel"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/B2_First"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Sport"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Basketball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Language"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/English"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Gender"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Language"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/French"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/HTML"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Food"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Ice_cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/City"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jaén"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/City"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jyväskylä"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Gender"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/MySQL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Food"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Team"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Real_Jaén"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FootballEntity"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Team"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/S.L._Benfica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationLevel"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/School"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Script"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationLevel"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Secondary_school"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Language"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spanish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationLevel"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationEntity"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jaén"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EducationEntity"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jyväskylä"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/C++"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Java_(programming_language)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://dbpedia.org/page/Hobby"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Referee_(association_football)"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Gisela"/>
+        <NamedIndividual IRI="#Rafa"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#Ana"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#Angeles"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasHusband"/>
+        <NamedIndividual IRI="#Angeles"/>
+        <NamedIndividual IRI="#Manuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#Araceli"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+        <NamedIndividual IRI="#CEIPNavasDeTolosa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/School"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+        <NamedIndividual IRI="#CEIPNavasDeTolosa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jaén"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#Gisela"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+        <NamedIndividual IRI="#Gisela"/>
+        <NamedIndividual IRI="#Montse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+        <NamedIndividual IRI="#IESAuringis"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Secondary_school"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+        <NamedIndividual IRI="#IESAuringis"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jaén"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#Manuel"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#Montse"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasHusband"/>
+        <NamedIndividual IRI="#Montse"/>
+        <NamedIndividual IRI="#RafaF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+        <NamedIndividual IRI="#Montse"/>
+        <NamedIndividual IRI="#Angeles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/bornIn"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jaén"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="#RafaF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteDessert"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Ice_cream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteFood"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Pizza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGirlfriend"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="#Ana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/HTML"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/MySQL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Script"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Java_(programming_language)"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isRefereeIn"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/livesIn"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Andalusia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/plays"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Association_football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/plays"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Basketball"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/speaks"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/English"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/speaks"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/French"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/speaks"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spanish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/studiesErasmusIn"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jyväskylä"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <NamedIndividual IRI="#RafaF"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+        <NamedIndividual IRI="#RafaF"/>
+        <NamedIndividual IRI="#Araceli"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/playsIn"/>
+        <NamedIndividual IRI="#Toxiria"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/belongsTo"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Andalusia"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isPlayedBy"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Association_football"/>
+        <NamedIndividual IRI="#FootballPlayer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasCertification"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/English"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/B2_First"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasCertification"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/French"/>
+        <NamedIndividual IRI="#Basic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isCityOf"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jaén"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isCityOf"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jyväskylä"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Finland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/playsIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Real_Jaén"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/has"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Referee_(association_football)"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isEntityOf"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Andalusia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/playsIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/S.L._Benfica"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasCertification"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spanish"/>
+        <NamedIndividual IRI="#Native"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jaén"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jaén"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jaén"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jyväskylä"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jyväskylä"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Jyväskylä"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasAge"/>
+        <NamedIndividual IRI="#Ana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasFullName"/>
+        <NamedIndividual IRI="#Ana"/>
+        <Literal>Ana Isabel Moya Rosales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasAge"/>
+        <NamedIndividual IRI="#Gisela"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasAge"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasBornIn"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2002-02-11T11:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasFullName"/>
+        <NamedIndividual IRI="#Rafa"/>
+        <Literal>Rafael Serrano Algar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/isInDivision"/>
+        <NamedIndividual IRI="#Toxiria"/>
+        <Literal>First Andalusian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasPrefix"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Finland"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">+358</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/isInDivision"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Real_Jaén"/>
+        <Literal>3 RFEF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasAcronyms"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Royal_Andalusian_Football_Federation"/>
+        <Literal>RFAF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/isInDivision"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/S.L._Benfica"/>
+        <Literal>Primeira Liga</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasPrefix"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/Spain"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">+34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasAcronyms"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jaén"/>
+        <Literal>UJA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/page/hasAcronyms"/>
+        <NamedIndividual IRI="https://dbpedia.org/page/University_of_Jyväskylä"/>
+        <Literal>JYU</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasDaughter"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasParents"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandDaughter"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandchildren"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandFather"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandParents"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandMother"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandParents"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandson"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandchildren"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasParents"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSon"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasBoyfriend"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGirlfriend"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasParents"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandParents"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandchildren"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasHusband"/>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasWife"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/belongsTo"/>
+        <Class IRI="https://dbpedia.org/page/Autonomous_communities_of_Spain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/bornIn"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+        <Class IRI="#EducationEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/has"/>
+        <Class IRI="#FootballEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasBoyfriend"/>
+        <Class IRI="https://dbpedia.org/page/Girlfriend"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasBrother"/>
+        <Class IRI="https://dbpedia.org/page/Sister"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasCertification"/>
+        <Class IRI="https://dbpedia.org/page/Language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+        <Class IRI="#Parents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasDaughter"/>
+        <Class IRI="#Parents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteDessert"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteFood"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGirlfriend"/>
+        <Class IRI="https://dbpedia.org/page/Boyfriend"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandDaughter"/>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandFather"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandMother"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandParents"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandchildren"/>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandson"/>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasHusband"/>
+        <Class IRI="https://dbpedia.org/page/Mother"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasLevelOf"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasNationalityOf"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasParents"/>
+        <Class IRI="https://dbpedia.org/page/Siblings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSister"/>
+        <Class IRI="https://dbpedia.org/page/Brother"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSon"/>
+        <Class IRI="#Parents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasStudiedIn"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasStudiesOf"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasWife"/>
+        <Class IRI="#Father"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/isCityOf"/>
+        <Class IRI="https://dbpedia.org/page/City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/isEntityOf"/>
+        <Class IRI="#FootballEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+        <Class IRI="#EducationEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/isPlayedBy"/>
+        <Class IRI="https://dbpedia.org/page/Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/isRefereeIn"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/livesIn"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/playedFor"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/plays"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/playsIn"/>
+        <Class IRI="https://dbpedia.org/page/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/speaks"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/studiesErasmusIn"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/page/usesFreeTimeAs"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/belongsTo"/>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/bornIn"/>
+        <Class IRI="https://dbpedia.org/page/City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+        <Class IRI="#EducationLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/has"/>
+        <Class IRI="https://dbpedia.org/page/Hobby"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasBoyfriend"/>
+        <Class IRI="https://dbpedia.org/page/Boyfriend"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasBrother"/>
+        <Class IRI="https://dbpedia.org/page/Brother"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasCertification"/>
+        <Class IRI="#LanguageLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+        <Class IRI="#Children"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasDaughter"/>
+        <Class IRI="https://dbpedia.org/page/Daughter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+        <Class IRI="#Father"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteDessert"/>
+        <Class IRI="https://dbpedia.org/page/Dessert"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasFavouriteFood"/>
+        <Class IRI="#Main"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+        <Class IRI="https://dbpedia.org/page/Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGirlfriend"/>
+        <Class IRI="https://dbpedia.org/page/Girlfriend"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandDaughter"/>
+        <Class IRI="https://dbpedia.org/page/GrandDaughter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandFather"/>
+        <Class IRI="https://dbpedia.org/page/Grandparent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandMother"/>
+        <Class IRI="#GrandMother"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandParents"/>
+        <Class IRI="https://dbpedia.org/page/Grandparents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandchildren"/>
+        <Class IRI="https://dbpedia.org/page/GrandChildren"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasGrandson"/>
+        <Class IRI="https://dbpedia.org/page/GrandSon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasHusband"/>
+        <Class IRI="#Father"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasLevelOf"/>
+        <Class IRI="#LanguageLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+        <Class IRI="https://dbpedia.org/page/Mother"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasNationalityOf"/>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasParents"/>
+        <Class IRI="#Parents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSister"/>
+        <Class IRI="https://dbpedia.org/page/Sister"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSkillOf"/>
+        <Class IRI="https://dbpedia.org/page/Skill"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasSon"/>
+        <Class IRI="https://dbpedia.org/page/Son"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasStudiedIn"/>
+        <Class IRI="#EducationEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasStudiesOf"/>
+        <Class IRI="#EducationLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/hasWife"/>
+        <Class IRI="https://dbpedia.org/page/Mother"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/isCityOf"/>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/isEntityOf"/>
+        <Class IRI="https://dbpedia.org/page/Autonomous_communities_of_Spain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+        <Class IRI="https://dbpedia.org/page/City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/isPlayedBy"/>
+        <Class IRI="https://dbpedia.org/page/Hobby"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/isRefereeIn"/>
+        <Class IRI="#FootballEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/livesIn"/>
+        <Class IRI="https://dbpedia.org/page/Autonomous_communities_of_Spain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/playedFor"/>
+        <Class IRI="https://dbpedia.org/page/Team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/plays"/>
+        <Class IRI="https://dbpedia.org/page/Sport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/playsIn"/>
+        <Class IRI="#FootballEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/speaks"/>
+        <Class IRI="https://dbpedia.org/page/Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/studiesErasmusIn"/>
+        <Class IRI="https://dbpedia.org/page/City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/page/usesFreeTimeAs"/>
+        <Class IRI="https://dbpedia.org/page/Hobby"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/page/hasAcronyms"/>
+        <Class IRI="#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/page/hasAge"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/page/hasBornIn"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/page/hasFullName"/>
+        <Class IRI="https://dbpedia.org/page/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/page/hasPrefix"/>
+        <Class IRI="https://dbpedia.org/page/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/page/isInDivision"/>
+        <Class IRI="https://dbpedia.org/page/Team"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/page/hasAcronyms"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/page/hasAge"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/page/hasBornIn"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/page/hasFullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/page/hasPrefix"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/page/isInDivision"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetNationality</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/bornIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/isCityOf"/>
+                <Variable abbreviatedIRI=":y"/>
+                <Variable abbreviatedIRI=":c"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasNationalityOf"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":c"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>LocalStudies</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/bornIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+                <Variable abbreviatedIRI=":g"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasStudiedIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>LevelStudies</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasStudiedIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/educatesIn"/>
+                <Variable abbreviatedIRI=":y"/>
+                <Variable abbreviatedIRI=":z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasStudiesOf"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/isRefereeIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/has"/>
+                <Variable abbreviatedIRI=":y"/>
+                <Variable abbreviatedIRI=":z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/usesFreeTimeAs"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetLanguageLevel</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/speaks"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasCertification"/>
+                <Variable abbreviatedIRI=":g"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasLevelOf"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>IsMother</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+                <Variable abbreviatedIRI=":x"/>
+                <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="https://dbpedia.org/page/Mother"/>
+                <Variable abbreviatedIRI=":x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>IsFather</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+                <Variable abbreviatedIRI=":x"/>
+                <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Father"/>
+                <Variable abbreviatedIRI=":x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetDaughter</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+                <Variable abbreviatedIRI=":y"/>
+                <NamedIndividual IRI="https://dbpedia.org/page/Female"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasDaughter"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetSon</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasChildren"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasGender"/>
+                <Variable abbreviatedIRI=":y"/>
+                <NamedIndividual IRI="https://dbpedia.org/page/Male"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasSon"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetSisterFromFather</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasDaughter"/>
+                <Variable abbreviatedIRI=":p"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+            <DifferentIndividualsAtom>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </DifferentIndividualsAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasSister"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetMotherGranFather</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+                <Variable abbreviatedIRI=":p"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasGrandFather"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetFatherGrandMother</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+                <Variable abbreviatedIRI=":p"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasGrandMother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetMother</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasWife"/>
+                <Variable abbreviatedIRI=":p"/>
+                <Variable abbreviatedIRI=":m"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":m"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetFather</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasHusband"/>
+                <Variable abbreviatedIRI=":p"/>
+                <Variable abbreviatedIRI=":m"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasFather"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":m"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetMotherGrandMother</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+                <Variable abbreviatedIRI=":p"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasGrandMother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetBrotherFromMother</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasMother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasSon"/>
+                <Variable abbreviatedIRI=":p"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+            <DifferentIndividualsAtom>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </DifferentIndividualsAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasBrother"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>RFAFTeams</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/livesIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":a"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/isEntityOf"/>
+                <Variable abbreviatedIRI=":r"/>
+                <Variable abbreviatedIRI=":a"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/playsIn"/>
+                <Variable abbreviatedIRI=":t"/>
+                <Variable abbreviatedIRI=":r"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/playedFor"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":t"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ErasmusUniversity</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/studiesErasmusIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/isIn"/>
+                <Variable abbreviatedIRI=":g"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/hasStudiedIn"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":g"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>GetFootballPlayer</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/plays"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/isPlayedBy"/>
+                <Variable abbreviatedIRI=":y"/>
+                <Variable abbreviatedIRI=":f"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="https://dbpedia.org/page/usesFreeTimeAs"/>
+                <Variable abbreviatedIRI=":x"/>
+                <Variable abbreviatedIRI=":f"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
